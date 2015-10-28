@@ -12,8 +12,7 @@ module.exports = {
 		pathinfo: true,
     },
     resolve: {        		
-        modulesDirectories: ['node_modules'],
-        fallback: [path.join(__dirname, "bower_components")]
+        modulesDirectories: ['node_modules', 'bower_components'],        
     },
 	//externals: [{		
 	//	angular: "angular",
