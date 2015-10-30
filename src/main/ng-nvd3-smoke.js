@@ -1,5 +1,11 @@
 var ng = require("angular");
-var ngd3 = require("angularjs-nvd3-directives");
+var d3 = require("d3");
+console.debug("d3", d3);
+var nvd3 = require("nvd3");
+console.debug("nvd3", nvd3);
+console.debug("nv", nv);
+var ngnvd3 = require("angularjs-nvd3-directives");
+console.debug("ngnvd3", ngnvd3);
 var app = ng.module("nvd3-app", ["nvd3ChartDirectives"]);
 app.controller("ExampleCtrl", ["$scope", function ExampleCtrl($scope){
       $scope.exampleData = [
@@ -17,7 +23,6 @@ app.controller("ExampleCtrl", ["$scope", function ExampleCtrl($scope){
          }
      ];
  }]);
-ng.element(document).ready(function(){	
-	console.debug("bootstra", ng);
+ng.element(document).ready(function(){		
 	ng.bootstrap(document, [app.name]);
 })
