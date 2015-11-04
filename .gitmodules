@@ -1,0 +1,6 @@
+[submodule "angularjs-nvd3-directives"]
+	path = common/angularjs-nvd3-directives
+	url = https://github.com/apartensky/angularjs-nvd3-directives.git
+[submodule "common/angularjs-nvd3-directives"]
+	path = common/angularjs-nvd3-directives
+	url = https://github.com/apartensky/angularjs-nvd3-directives.git
