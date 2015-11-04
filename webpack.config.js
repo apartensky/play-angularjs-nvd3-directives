@@ -15,9 +15,9 @@ module.exports = {
         modulesDirectories: ['node_modules', 'bower_components'],   
         //*** This is needed if Bower's main attribute is an array
         //*** Not needed if using the Npm version
-        //alias: {
-        //    "nvd3$": "nvd3/nv.d3.js",
-        //}     
+        alias: {
+            "nvd3$": "nvd3/nv.d3.js",
+        }     
     },
 	//externals: [{		
 	//	angular: "angular",
